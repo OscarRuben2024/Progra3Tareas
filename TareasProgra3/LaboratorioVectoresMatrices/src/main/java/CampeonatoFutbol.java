@@ -84,6 +84,18 @@ public class CampeonatoFutbol extends javax.swing.JFrame {
         }
         System.out.println(tabla);
     }
+    
+    private void borrarEquipos() {
+        for (int i = 0; i < equipos.length; i++) {
+            equipos[i] = null;
+        }
+        for (int i = 0; i < resultados.length; i++) {
+            for (int j = 0; j < resultados[i].length; j++) {
+                resultados[i][j] = 0;
+            }
+        }
+        System.out.println("Se han borrado todos los equipos.");
+    }
 
     private String equipoGanador() {
         int[] puntos = calcularPuntos();
@@ -122,6 +134,7 @@ public class CampeonatoFutbol extends javax.swing.JFrame {
         SimularPartidos = new javax.swing.JButton();
         Table = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        borrarEquipos = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -165,19 +178,19 @@ public class CampeonatoFutbol extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("Equipos de un campeonato de football");
 
+        borrarEquipos.setText("Borrar y restablecer");
+        borrarEquipos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                borrarEquiposActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(14, 14, 14)
-                        .addComponent(Table, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(SimularPartidos, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Resul, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(77, 77, 77)
                         .addComponent(jLabel1))
@@ -187,7 +200,16 @@ public class CampeonatoFutbol extends javax.swing.JFrame {
                             .addComponent(IngresoEquipo, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel2))
                         .addGap(82, 82, 82)
-                        .addComponent(IngresarEquipos, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(IngresarEquipos, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addComponent(Table, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(borrarEquipos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(SimularPartidos, javax.swing.GroupLayout.DEFAULT_SIZE, 135, Short.MAX_VALUE))
+                        .addGap(18, 18, 18)
+                        .addComponent(Resul, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(42, 42, 42))
         );
         layout.setVerticalGroup(
@@ -206,7 +228,9 @@ public class CampeonatoFutbol extends javax.swing.JFrame {
                     .addComponent(SimularPartidos)
                     .addComponent(Table)
                     .addComponent(Resul))
-                .addContainerGap(275, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(borrarEquipos)
+                .addContainerGap(232, Short.MAX_VALUE))
         );
 
         pack();
@@ -257,6 +281,10 @@ public class CampeonatoFutbol extends javax.swing.JFrame {
        mostrarTabla();
     }//GEN-LAST:event_TableActionPerformed
 
+    private void borrarEquiposActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_borrarEquiposActionPerformed
+       borrarEquipos();
+    }//GEN-LAST:event_borrarEquiposActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -298,6 +326,7 @@ public class CampeonatoFutbol extends javax.swing.JFrame {
     private javax.swing.JButton Resul;
     private javax.swing.JButton SimularPartidos;
     private javax.swing.JButton Table;
+    private javax.swing.JButton borrarEquipos;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
