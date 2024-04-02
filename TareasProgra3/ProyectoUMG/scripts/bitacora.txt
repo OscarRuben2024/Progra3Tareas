@@ -1,0 +1,38 @@
+commit cc116976ae471df5409c1c7235e756aae1f4cd0d
+Author: Esduardo Del Aguila <daguilae@yahoo.com>
+Date:   Tue Feb 1 10:59:26 2022 -0600
+
+    Cambio al script BD se agrego bitacora
+
+commit 8f2a66db8ca47bda836a13cb3bf3aef3020afe53
+Merge: 70e92ed 699733b
+Author: edelaguila <54811781+edelaguila@users.noreply.github.com>
+Date:   Thu Jan 27 12:08:30 2022 -0600
+
+    Merge pull request #1 from edelaguila/fix-Login
+    
+    Cambios nuevos en el login
+
+commit 699733b7cb9f9dc005955fcce6bd5640121ee7b4
+Author: Esduardo Del Aguila <daguilae@yahoo.com>
+Date:   Thu Jan 27 11:40:21 2022 -0600
+
+    Cambios nuevos en el login
+
+commit 70e92ed5c1a92980ef007928b9fad9161fe1a9f9
+Author: Esduardo Del Aguila <daguilae@yahoo.com>
+Date:   Thu Jan 27 11:14:02 2022 -0600
+
+    Cambios al Login del sistema
+
+commit 3c14e418553ae57016a243f79af0c16c0a76ce79
+Author: Esduardo Del Aguila <daguilae@yahoo.com>
+Date:   Tue Jan 25 12:01:01 2022 -0600
+
+    Primer commit Progra 3
+
+commit deef16ed96008785240519bc510c65a9472fa789
+Author: edelaguila <54811781+edelaguila@users.noreply.github.com>
+Date:   Tue Jan 25 08:18:55 2022 -0600
+
+    Initial commit

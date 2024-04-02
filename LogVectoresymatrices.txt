@@ -1,0 +1,82 @@
+commit b83b05d502be7d8440194ebf8b97bcad0d03717a
+Merge: ec41c8b 48e003f
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Sat Feb 24 20:29:41 2024 -0600
+
+    Merge branch 'main' of https://github.com/OscarRuben2024/Progra3Tareas
+
+commit ec41c8b1938b2726b6462f1e4810f5b83872b86f
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Sat Feb 24 20:28:30 2024 -0600
+
+    partidos politicos
+
+commit 48e003f72f590fcf38b2a470b72e8e14462f0f9e
+Author: Kevin González Sosa <123187500+kgonzalez26@users.noreply.github.com>
+Date:   Fri Feb 23 22:06:25 2024 -0600
+
+    Función de borrado de equipos
+
+commit da5b797fc51f1547279294471541518a780e9fca
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Fri Feb 23 16:51:12 2024 -0600
+
+    Primer programa completo
+
+commit 9fcd88fe40ee21dcffff00ada1d22e6ced46f4b6
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Fri Feb 23 16:23:57 2024 -0600
+
+    Opciones
+
+commit 58fddee216623c85ce19426b1f87b30c03b37130
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Fri Feb 23 16:19:16 2024 -0600
+
+    Botones
+
+commit f83ba32ddc4e8a77d9228046ea2a2bad760a41e8
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Fri Feb 23 16:11:41 2024 -0600
+
+    LabVecYmat
+
+commit 9e56614100f9a3a4af5992224f4afc4b429147ee
+Author: Jose García <joseagmont@gmail.com>
+Date:   Sat Feb 10 19:02:44 2024 -0600
+
+    Botón iteración
+
+commit 83a9b9ef68466b6e87351d740be0e8b72268a6ff
+Merge: de52f26 3033aa3
+Author: Oscar Morales <157633781+OscarRuben2024@users.noreply.github.com>
+Date:   Sat Feb 10 17:44:53 2024 -0600
+
+    Merge pull request #1 from OscarRuben2024/Agregando-iteraciones
+
+commit 3033aa369548c9a19145e5332ccbaf5734394fa8
+Author: Kevin González Sosa <123187500+kgonzalez26@users.noreply.github.com>
+Date:   Sat Feb 10 17:40:09 2024 -0600
+
+    Update ejerciciobinario.java
+    
+    Agregado de función para contar iteraciones en la búsqueda Binaria
+
+commit de52f26341de5ec80ddb2a3b975119bcb805eb55
+Merge: 5951ad1 64a47d3
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Mon Feb 5 11:39:22 2024 -0600
+
+    Merge branch 'main' of https://github.com/OscarRuben2024/Progra3Tareas
+
+commit 5951ad1d3802ab9921069509ada51ed470588a6a
+Author: Oscar Morales <omoraless6@miumg.ed.gt>
+Date:   Mon Feb 5 11:27:47 2024 -0600
+
+    agregar
+
+commit 64a47d3866b604a99e77148394d4201846a4523d
+Author: Oscar Morales <157633781+OscarRuben2024@users.noreply.github.com>
+Date:   Mon Feb 5 11:17:29 2024 -0600
+
+    Initial commit
